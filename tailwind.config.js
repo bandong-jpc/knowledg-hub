@@ -2,7 +2,13 @@
 export default {
   content: ["./index.html", "./src/**/*.{vue,js,ts}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        pink: {
+          default: "#ed018b",
+        },
+      },
+    },
   },
   plugins: [],
 };
